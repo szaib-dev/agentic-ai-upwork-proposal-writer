@@ -2,7 +2,7 @@
   "name": "upwork-proposal-writer",
   "module": "index.ts",
   "scripts": {
-    "dev": "bun --watch src/index.ts"
+    "dev": "bun src/index.ts"
   },
   "type": "module",
   "private": true,
@@ -13,6 +13,7 @@
     "typescript": "^7"
   },
   "dependencies": {
+    "@langchain/core": "^1.2.14",
     "@langchain/deepseek": "^1.1.17",
     "@langchain/langgraph": "^1.4.18"
   }
